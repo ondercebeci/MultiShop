@@ -29,9 +29,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiShop.Order.Persistence
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiShop.Order.WebApi", "Services\Order\Presentation\MultiShop.Order.WebApi\MultiShop.Order.WebApi.csproj", "{0F8F4FB4-9EB9-4C5C-BF21-93A1F4A37170}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityServer", "IdentityServer", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityServer", "IdentityServer", "{A973780A-CEF6-49C8-B7B6-CAD047F77360}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiShop.IdentityServer", "IdentityServer\MultiShop.IdentityServer\MultiShop.IdentityServer.csproj", "{EA14094F-FB55-5ABC-1402-B4229C4AD0B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Requirements", "Requirements", "{C52FEF4A-FB79-43EE-A323-F14AD06F9E9F}"
+	ProjectSection(SolutionItems) = preProject
+		PortNumber.txt = PortNumber.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -84,7 +89,7 @@ Global
 		{26271E9A-24CC-4692-AFE9-1B638C965550} = {FB1F7322-7863-4E9B-9D9D-E4D00345F91C}
 		{37E26818-2813-4F8F-9153-6354345DD076} = {7AF621C3-7706-4B66-A197-1AC255FDDD1E}
 		{0F8F4FB4-9EB9-4C5C-BF21-93A1F4A37170} = {152E9F93-1E23-4BEF-8B59-135841B15F36}
-		{EA14094F-FB55-5ABC-1402-B4229C4AD0B1} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{EA14094F-FB55-5ABC-1402-B4229C4AD0B1} = {A973780A-CEF6-49C8-B7B6-CAD047F77360}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8F692E0A-CECE-4CE0-AB78-ED23C820041B}
